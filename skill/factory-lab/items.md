@@ -1,6 +1,6 @@
 # Where an item is, and splitting one
 
-Read with the `archon-software-factory` skill. Run every command from the project's checkout.
+Read with the `factory-lab` skill. Run every command from the project's checkout.
 
 ## Where an item is
 
@@ -83,7 +83,7 @@ Triage starts the split by itself when it judges `split`. To split an epic or a 
 directly, put its text in a file and run:
 
 ```bash
-archon workflow run dynamous-community/archon-software-factory:split --item <key> --input-file item=<file>
+archon workflow run Wirasm/factory-lab:split --item <key> --input-file item=<file>
 ```
 
 `whole` starts plan on the item. `split` orders each member that starts now as

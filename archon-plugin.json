@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "kind": "workflow-pack",
-  "name": "archon-software-factory",
+  "name": "factory-lab",
   "description": "A software factory on Archon: work items in, merged changes out, asks only when the decision is yours",
   "skill": {
-    "name": "archon-software-factory",
-    "path": "skill/archon-software-factory"
+    "name": "factory-lab",
+    "path": "skill/factory-lab"
   },
   "entrypoints": {
     "order": "order/order.yaml",
